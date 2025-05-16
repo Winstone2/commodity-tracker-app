@@ -1,0 +1,37 @@
+community_health/
+│── .gitignore
+│── manage.py
+│── README.md
+│── requirements.txt
+│── requirements-dev.txt
+├── config/
+│   │── __init__.py
+│   │── asgi.py
+│   │── settings.py
+│   │── urls.py
+│   │── wsgi.py
+├── health/
+│   │── __init__.py
+│   │── admin.py
+│   │── apps.py
+│   │── forms.py
+│   │── models.py
+│   │── tests.py
+│   │── urls.py
+│   │── views.py
+│   ├── migrations/
+│   ├── static/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   ├── templates/
+│   │   ├── health/
+│   │   │   ├── base.html
+│   │   │   ├── commodity_list.html
+│   │   │   ├── commodity_form.html
+│   │   │   ├── report.html
+│   │   │   └── dashboard.html
+├── utils/
+│   │── __init__.py
+│   │── export_utils.py
+│   │── calculations.py

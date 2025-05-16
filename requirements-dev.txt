@@ -1,0 +1,6 @@
+ipython==8.17.2
+django-debug-toolbar==4.2.0
+pylint-django==2.5.3
+coverage==7.3.2
+factory-boy==3.3.0
+faker==19.13.0
